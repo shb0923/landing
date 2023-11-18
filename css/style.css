@@ -1,0 +1,78 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.text-center {
+  text-align: center;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #4aa8e6;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.container {
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.btn-vimeo {
+  width: 35px;
+  height: 35px;
+  opacity: 75%;
+}
+
+.btn-vimeo:hover {
+  opacity: 100%;
+  transition: 0.75s ease;
+}
